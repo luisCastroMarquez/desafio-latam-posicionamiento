@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Raleway:wght@300;400;500;700;900&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    height: 90%;
+    text-align: center;
+    margin: 9px;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font: normal normal medium Raleway, sans-serif;
+    font-size: 50px;
+    margin-top: 7px;
+    text-transform:uppercase;
+}
+
+
+.hero-section {
+    width: 100%;
+    height: 730px;
+    background-image: url(../img/bg-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.info-iguana {
+    background-color: #000;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 110px;
+}
+
+.info-iguana p {
+    width: 480px;
+    font: normal normal 300 16px/19px Raleway, sans-serif;
+    letter-spacing: 0px;
+}
+
+.info-iguana img {
+    width: 415px;
+    height: 238px;
+}
+
+.info-iguanas {
+    width: 100%;
+    height: 348px;
+    background-color: #1e1a13;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.info-iguanas h2 {
+    font: normal normal medium Raleway, sans-serif;
+    margin-top: 60px ;
+    margin-right: 56px;
+    text-align: center;
+    font-size: 50px;
+    text-transform:uppercase;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 145px;
+}
+
+.box-icon {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.box-icon i {
+    margin-bottom: 38px;
+}
+
+.box-icon p {
+    font-family: Raleway light, sans-serif;
+    font-size: 25px;
+    text-transform:uppercase;
+}
+
+.container {
+    width: 100%;
+    height: 338px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.img {
+    width: 325px;
+    margin: 70px 0px;
+}
+
+footer {
+    width: 100%;
+    height: 102px;
+    background-color: #1e1a13;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+footer h3 {
+    letter-spacing: 0px;
+    font: normal normal medium Raleway, sans-serif;
+    font-size: 20px;
+    text-transform:uppercase;
+}
+
+
